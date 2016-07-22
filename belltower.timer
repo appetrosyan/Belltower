@@ -1,0 +1,9 @@
+[Unit]
+Description=Mark time like many clocktowers used to.
+
+[Timer]
+OnCalendar=hourly
+Persistent=true
+
+[Install]
+WantedBy=timers.target

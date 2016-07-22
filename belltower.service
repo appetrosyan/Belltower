@@ -1,0 +1,10 @@
+[Unit]
+Description=Mark time like many clocktowers used to.
+
+
+[Service]
+Type=simple
+ExecStart=/var/run/Belltower/belltower.sh
+
+[Install]
+WantedBy=timers.target
